@@ -12,11 +12,9 @@ body {
   display: none !important;
 }
 
-.hero {
-}
 .hero__title {
   font-weight: 700;
-  font-size: 32px;
+  font-size: 30px;
   line-height: 1;
   text-shadow: 0px 0px 20px rgb(17, 70, 80);
 }
@@ -43,30 +41,24 @@ body {
   align-items: center;
 
   width: max-content;
-
   height: 40px;
   padding: 8px 10px 8px 20px;
   /* margin-bottom: 20px; */
+	color: black;
 
   background-color: #fff;
   border-radius: 50px;
-
+	
   transition: opacity ease-in 0.2s;
 }
+
 .form:hover {
   opacity: 0.8;
--radius: 50px;
--right: 10px;
 }
 
 .form__input::placeholder {
   font-weight: 400;
   font-size: 16px;
-}
-
-.form__btn {
-}
-.form__btn-img {
 }
 
 /* section info */
