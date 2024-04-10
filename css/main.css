@@ -8,8 +8,8 @@ body {
   padding-top: 10vh;
 }
 
-.none{
-	display: none !important;
+.none {
+  display: none !important;
 }
 
 .weather {
@@ -20,7 +20,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-	gap: 20px;
+  align-items: center;
+  gap: 20px;
 
   border-radius: 16px;
   color: #fff;
@@ -32,7 +33,7 @@ body {
   display: flex;
   align-items: center;
 
-	width: max-content;
+  width: max-content;
 
   height: 40px;
   padding: 8px 10px 8px 20px;
@@ -61,7 +62,7 @@ body {
 /* section info */
 .weather__info {
   text-align: center;
-  padding-bottom: 60px;
+  padding-bottom: 40px;
 }
 
 .weather__info-img {
@@ -84,9 +85,10 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-	gap: 30px;
+  gap: 30px;
 
-	width: max-content;
+  /* width: max-content; */
+  width: 100%;
 }
 
 .weather__wrap {
