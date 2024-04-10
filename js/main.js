@@ -37,7 +37,7 @@ async function submitHandler(e) {
 }
 
 async function getGeo(city) {
-	const geoUrl = `http://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=${API_KEY}`;
+	const geoUrl = `https://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=${API_KEY}`;
 	const response = await fetch(geoUrl);
 	const data = await response.json();
 	return data[0];
